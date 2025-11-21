@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4714059341080971792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -7424620493787529272, guid: 89c17a1b90250824e800c03961a28649,
+        type: 3}
+      propertyPath: Baking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100074, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_Name
+      value: Toon Cactus Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fefd534d0c002844a890ed641e76af0, type: 2}
+    - target: {fileID: 7860791680382218591, guid: 89c17a1b90250824e800c03961a28649,
+        type: 3}
+      propertyPath: Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fefd534d0c002844a890ed641e76af0, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100074, guid: 89c17a1b90250824e800c03961a28649,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3902947181449564655}
+  m_SourcePrefab: {fileID: 100100000, guid: 89c17a1b90250824e800c03961a28649, type: 3}
+--- !u!1 &4714059341081070842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100074, guid: 89c17a1b90250824e800c03961a28649,
+    type: 3}
+  m_PrefabInstance: {fileID: 4714059341080971792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3902947181449564655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714059341081070842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9d1f44255f1b441b719a8e477ac16d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clips:
+  - {fileID: 1729785893316914627, guid: 3cb005a2611a4c442a4480d2b4255c80, type: 3}
+  Index: 0
