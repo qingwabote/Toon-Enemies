@@ -19,6 +19,7 @@ MonoBehaviour:
     assetLoadType: 1
     compressDataPackage: 0
     VideoUrl: 
+    relativeDST: C:/Users/logan/Documents/Unity/Toon Enemies/Build
     DST: C:/Users/logan/Documents/Unity/Toon Enemies/Build
     StreamCDN: 
     bundleHashLength: 32
@@ -65,6 +66,8 @@ MonoBehaviour:
     enablePerfAnalysis: 0
     iOSAutoGCInterval: 10000
     enableIOSPerformancePlus: 1
+    enableiOSMetal: 0
+    enableEmscriptenGLX: 0
     brotliMT: 1
     enableWasm2023: 0
   CompressTexture:
