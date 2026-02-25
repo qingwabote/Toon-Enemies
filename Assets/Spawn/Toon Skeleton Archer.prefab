@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: -7424620493787529272, guid: f7691fac9d2cca0439850f4964b64a9b,
         type: 3}
       propertyPath: Baking
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2534637727932409697, guid: f7691fac9d2cca0439850f4964b64a9b,
         type: 3}
@@ -63,7 +63,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 13700002, guid: f7691fac9d2cca0439850f4964b64a9b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: aef58fc5c0fe6f94f9c9c9a2fc905ea1, type: 2}
     m_RemovedComponents: []
