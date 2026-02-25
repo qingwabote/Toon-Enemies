@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: cd607b25707b277428da92110da3cbda
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable:
   - first:
       1: 100000
@@ -358,8 +358,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -400,6 +398,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
@@ -419,34 +420,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 71e5bf57b3f36df43a6a0a42fcfa63fc
-  - 5b14ac6e5e1eb9741b31b185096fbda2
-  - 87f8c1c1e6e61044cb5e0c148bb13243
-  - 4a1ef5294a9af0f40ac7a093a690c0d0
-  - 144af7d1ac1365b44b85240f9301a771
-  - de55b41fc791b944c88d960df37eaaed
-  - a6c80f817837dd54392f3e15353a9992
-  - f1c6ffcec163b3d4993b4f827584feeb
-  - 86b31af85243a3746857cb39c6d71b60
-  - 30858e99b36c8bd41b53a0d37e85ddf6
-  - 84e73ebbf2db2874cbdf1d917b99f2d0
-  - 6237c610b16396b4f87738f3e58bcaa3
-  - 82afae0a4f83d1a4b81b3fd6c157ef28
-  - 542755897ead37b40b2f9c1a9ee350cb
-  - 4bfa959e1238cf94ba34aaeabca6a6f9
-  - 731af9ace05279345ae497cd2c98c2ce
-  - aca170e8351ee1c4d9c3d0b99020684e
-  - 95e5bb3c813e6b04bb3a5856691f7734
-  - a51501e86d85e8247a13fba3071da19a
-  - 9747cdb8e731fcc44af5afbffae08db8
-  - afaf5e7ba5b024b4ea0d41fc725625f5
-  - 12b1e2d8b967b8e4abdf9b4bbcb67437
-  - b887ae12c1abc7e4dac6cb972bd08618
-  - 0f17eacf31f9c5344a8d0bbc3fa69d33
-  - 74cfe941fbbe7384bbaf85266fcaf475
-  - 703c9d5b7e3b10a4a93def132e079606
-  - e42fe268012bc1449a68d0a34bdb58a1
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3

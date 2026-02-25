@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 51021e8625b46d34fbad75dadaf2f31c
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable:
   - first:
       1: 100000
@@ -286,9 +286,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
-      human bone 'LeftLowerArm' not found\n"
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -329,6 +326,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
@@ -348,30 +348,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 6ed67e5060eba274da081ecc105e51d8
-  - 7fd224f680f5d484fb0017b67b8b9684
-  - e84356376efbf8442b94702cc295de2c
-  - 2e64cb7cbcccbd84ba035c356254acc5
-  - 6ddd49defe8962e498b3b77866115aac
-  - 90b1bba091cbcc5448586c74afcbc8b1
-  - c7d07e3d38f2ce64d95b410063301fcd
-  - 391c9a831fc4958419da82ab7291c9c2
-  - 5b6035b9e74c0cc4a9773993ebe04dae
-  - d3d5d970505dc5a4080bab8e6dec398e
-  - 5fd3d609ec0c92849b8d9853aaab8c11
-  - 482c4c6adc0cb2d448a70ce9e579b082
-  - a3be5038b90e9eb44806aa1e6933e7e2
-  - 0a01d519a5780c64eaedb034785a81de
-  - b08d1072fb4dc2c46b07e7439687d485
-  - 2583abc365c701c459a279c6732c2f89
-  - 36e1b53cf0a92bc4e856dfdd83c255fe
-  - 4573b9306d25d5e4a9ace064d0d36257
-  - be3b401addc5bbb49962416a6d0079f7
-  - baa012558f1fdcc4cb6948975d85661d
-  - 70f80fde8a1428a47906d0b26353da16
-  - 709e7e1062d929c47b6133d9ff664ac7
-  - e7ebfdc83da676646959f45303b87438
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
