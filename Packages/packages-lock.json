@@ -6,8 +6,7 @@
       "source": "embedded",
       "dependencies": {
         "com.unity.burst": "1.8.19",
-        "com.unity.collections": "2.5.7",
-        "com.unity.textmeshpro": "3.0.7"
+        "com.unity.collections": "2.5.7"
       }
     },
     "com.qq.weixin.minigame": {
@@ -69,7 +68,7 @@
       "dependencies": {}
     },
     "com.unity.ide.rider": {
-      "version": "3.0.36",
+      "version": "3.0.39",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -78,16 +77,16 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.22",
+      "version": "2.0.26",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.9"
+        "com.unity.test-framework": "1.1.33"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.18.0",
+      "version": "1.19.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -149,7 +148,7 @@
       }
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "2.5.2",
+      "version": "2.6.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -204,16 +203,8 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.textmeshpro": {
-      "version": "5.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.ugui": "2.0.0"
-      }
-    },
     "com.unity.timeline": {
-      "version": "1.7.7",
+      "version": "1.8.11",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -234,7 +225,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.4",
+      "version": "1.9.10",
       "depth": 0,
       "source": "registry",
       "dependencies": {

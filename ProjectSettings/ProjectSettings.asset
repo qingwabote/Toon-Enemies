@@ -114,6 +114,7 @@ PlayerSettings:
   xboxEnableGuest: 0
   xboxEnablePIXSampling: 0
   metalFramebufferOnly: 0
+  metalUseMetalDisplayLink: 0
   xboxOneResolution: 0
   xboxOneSResolution: 0
   xboxOneXResolution: 3
@@ -846,7 +847,7 @@ PlayerSettings:
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration:
-    WebGL: 0
+    WebGL: 1
   il2cppStacktraceInformation: {}
   managedStrippingLevel:
     EmbeddedLinux: 1
