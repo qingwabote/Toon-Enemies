@@ -819,7 +819,7 @@ PlayerSettings:
   webGLShowDiagnostics: 0
   webGLDataCaching: 0
   webGLDebugSymbols: 1
-  webGLEmscriptenArgs: 
+  webGLEmscriptenArgs: -s ERROR_ON_UNDEFINED_SYMBOLS=0
   webGLModulesDirectory: 
   webGLTemplate: PROJECT:WXTemplate2022
   webGLAnalyzeBuildSize: 0

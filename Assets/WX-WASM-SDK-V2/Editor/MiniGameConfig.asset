@@ -55,7 +55,7 @@ MonoBehaviour:
     profilingFuncs: 0
     Webgl2: 1
     fbslim: 0
-    DeleteStreamingAssets: 1
+    DeleteStreamingAssets: 0
     ProfilingMemory: 0
     CleanBuild: 0
     CustomNodePath: 
@@ -70,6 +70,7 @@ MonoBehaviour:
     enableEmscriptenGLX: 0
     brotliMT: 1
     enableWasm2023: 0
+    enableRenderThread: 0
   CompressTexture:
     halfSize: 0
     useDXT5: 0
@@ -100,3 +101,14 @@ MonoBehaviour:
     Geometric_Shapes: 1
     Mathematical_Operators: 1
     CustomUnicode: 
+  MultiPackageMerge:
+    outputPath: 
+    devPluginId: 
+    packageConditions:
+    - condition: config.features?.preferThreads === true && canUseThread
+      packageSuffix: mt
+      packagePath: 
+    defaultPackagePath: 
+    commonDirectories: 
+    commonFiles: 
+    framework: unity

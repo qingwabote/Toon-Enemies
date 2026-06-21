@@ -14,7 +14,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "da392637d3a224636d61af0b3da0eda8427d6bc8"
+      "hash": "f1cf6fad379ff36fc162045c8bdd36947826da9b"
     },
     "com.unity.burst": {
       "version": "1.8.28",
@@ -233,6 +233,18 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "flavor": {
+      "version": "file:flavor",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "flavor.core": {
+      "version": "file:flavor.core",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "graphix": {
       "version": "file:graphix",
