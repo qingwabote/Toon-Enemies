@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c8db1fb7899b1479baa42eea3078b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Graphix::Graphix.SkinAuthoring
-  Skin: {fileID: -665807658884590187, guid: a7896f6930b349fd982a1f5a51d2731c, type: 3}
+  Skin: {fileID: -665807658884590187, guid: 2955d4bb84d242008324701ae97b6d92, type: 3}
   Baking: 1
 --- !u!1 &7695084517473821215
 GameObject:

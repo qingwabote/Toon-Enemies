@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c8db1fb7899b1479baa42eea3078b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Graphix::Graphix.SkinAuthoring
-  Skin: {fileID: -665807658884590187, guid: b6a309eaf67f407c8b502e0a2e43faf9, type: 3}
+  Skin: {fileID: -665807658884590187, guid: 40b4fcda8f7142269ed6bad1bcf74059, type: 3}
   Baking: 1
 --- !u!114 &3596777660730301437
 MonoBehaviour:
