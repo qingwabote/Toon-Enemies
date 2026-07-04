@@ -119,7 +119,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d48c9bc6476840a46a92ccc5dd943b2f, type: 2}
+  - {fileID: 2100000, guid: 47320ec1263818e47bf393ec157f4fbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -396,9 +396,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6971543191592591950}
-  - component: {fileID: 7053382613734492950}
   - component: {fileID: 8402196331077950455}
   - component: {fileID: 5395095511516270616}
+  - component: {fileID: 3596777660730301437}
   m_Layer: 0
   m_Name: SlimePAMaskTint
   m_TagString: Untagged
@@ -423,28 +423,6 @@ Transform:
   - {fileID: 6971282179834705676}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &7053382613734492950
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6969136263848371978}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: b6a309eaf67f407c8b502e0a2e43faf9, type: 3}
-  m_Controller: {fileID: 9100000, guid: 9d132128829c4a4e962cef5de570a08f, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &8402196331077950455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,6 +452,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Graphix::Graphix.SkinAuthoring
   Skin: {fileID: -665807658884590187, guid: b6a309eaf67f407c8b502e0a2e43faf9, type: 3}
   Baking: 1
+--- !u!114 &3596777660730301437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6969136263848371978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b155b293d52ed894599a216fac044288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TintColorAuthoring
+  Color1: {r: 0.39215687, g: 1, b: 0, a: 0}
+  Color2: {r: 0.49803922, g: 0.6, b: 0, a: 0}
+  Color3: {r: 1, g: 1, b: 1, a: 0}
 --- !u!1 &6969283729008570918
 GameObject:
   m_ObjectHideFlags: 0

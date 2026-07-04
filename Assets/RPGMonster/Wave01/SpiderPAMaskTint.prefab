@@ -617,7 +617,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7700823535338310721}
-  - component: {fileID: 7754091265052178307}
   - component: {fileID: 5634961309365608892}
   - component: {fileID: 2532074331662748055}
   m_Layer: 0
@@ -644,28 +643,6 @@ Transform:
   - {fileID: 7692335288990580803}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &7754091265052178307
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7695083982941622397}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: a7896f6930b349fd982a1f5a51d2731c, type: 3}
-  m_Controller: {fileID: 9100000, guid: 8e10f0b2b3f24c4091eb24d4a5290efb, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5634961309365608892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +761,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d48c9bc6476840a46a92ccc5dd943b2f, type: 2}
+  - {fileID: 2100000, guid: 47320ec1263818e47bf393ec157f4fbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
